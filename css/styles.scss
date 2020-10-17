@@ -1,14 +1,72 @@
-<style>
+
 body{
 	background-image: url('/images/bg.jpg');
-	background-repeat: no-repeat;
-	background-attachment:fixed;
-	background-size: cover;
-	{
-	</style>
 	font-family: sans-serif;
+
+	h1 {
+	color: white;
+	text-decoration: underline;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: left;
+}
+	h2 {
+	color: white;
+	text-shadow: 2px 2px 4px black;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: left;
+	font-size: 25px;
+	font-style: italic;
+
+	}
+h3{
+	background-color: grey;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align:left;
+
+	font-size: 25px;
+}
+p{
+	background-color: grey;
+	text-align: center;
+	font-size: 20px;
+	font-family: monospace;
+}
+h4{
+	font-size: 30px;
+	text-align: center;
+	font-size: bold;
+	font-family: inherit;
+	font-style: oblique;
+}
+
+ol{
+	text-align: center;
+	font-style: bold;
+	font-size: 20px;
+	font-family: monospace;
+	text-shadow: 2px 2px 4px black;
+
+}
+li{
+	text-align: center;
+	text-decoration: underline;
+}
+footer{
+	font-size: 17px;
+	text-decoration-color: white;
+}
 
 	img {
 		width: 100%;
-	}
+}
 }

@@ -1,4 +1,55 @@
 body {
+  background-image: url("/images/bg.jpg");
   font-family: sans-serif; }
+  body h1 {
+    color: white;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left; }
+  body h2 {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    font-size: 25px;
+    font-style: italic; }
+  body h3 {
+    background-color: grey;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    font-size: 25px; }
+  body p {
+    background-color: grey;
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace; }
+  body h4 {
+    font-size: 30px;
+    text-align: center;
+    font-size: bold;
+    font-family: inherit;
+    font-style: oblique; }
+  body ol {
+    text-align: center;
+    font-style: bold;
+    font-size: 20px;
+    font-family: monospace;
+    text-shadow: 2px 2px 4px black; }
+  body li {
+    text-align: center;
+    text-decoration: underline; }
+  body footer {
+    font-size: 17px;
+    text-decoration-color: white; }
   body img {
     width: 100%; }
