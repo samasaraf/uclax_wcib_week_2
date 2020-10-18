@@ -8,7 +8,7 @@ body {
     margin-bottom: 15px;
     padding-left: 10px;
     padding-right: 10px;
-    text-align: left; }
+    text-align: center; }
   body h2 {
     color: white;
     text-shadow: 2px 2px 4px black;
@@ -17,28 +17,33 @@ body {
     margin-bottom: 15px;
     padding-left: 10px;
     padding-right: 10px;
-    text-align: left;
     font-size: 25px;
     font-style: italic; }
+  body iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
   body h3 {
-    background-color: grey;
     margin-top: 10px;
     margin-bottom: 15px;
     padding-left: 10px;
     padding-right: 10px;
-    text-align: left;
-    font-size: 25px; }
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    font-size: 25px;
+    font-style: italic; }
   body p {
-    background-color: grey;
+    background-color: black;
     text-align: center;
     font-size: 20px;
     font-family: monospace; }
   body h4 {
     font-size: 30px;
-    text-align: center;
+    text-align: justify;
     font-size: bold;
     font-family: inherit;
-    font-style: oblique; }
+    text-shadow: 2px 2px 4px black;
+    font-style: italic; }
   body ol {
     text-align: center;
     font-style: bold;
@@ -46,10 +51,11 @@ body {
     font-family: monospace;
     text-shadow: 2px 2px 4px black; }
   body li {
-    text-align: center;
+    text-align: justify;
     text-decoration: underline; }
   body footer {
     font-size: 17px;
-    text-decoration-color: white; }
+    text-decoration-color: black;
+    text-align: center; }
   body img {
     width: 100%; }
